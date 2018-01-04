@@ -8,3 +8,7 @@ The main objective of this workshop is to build an address book Application. Thi
 * Use Javascript to remove an existing address.
 * Use javascript to edit an existing address.
 * Use CSS to change the design of the address book.
+
+# Also See
+This document is in Markdown format:
+https://guides.github.com/features/mastering-markdown/
