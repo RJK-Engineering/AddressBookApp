@@ -32,7 +32,7 @@ $(document).ready(function() {
     createList(addresses);
 });
 
-// create list from stored addresses
+// create address list
 function createList(addresses) {
     var tbody = $('<tbody/>');
 
