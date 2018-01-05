@@ -16,10 +16,55 @@
     <!--[if lt IE 9]>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
     <![endif]-->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="js/scripts.js"></script>
 </head>
 
 <body>
-  <script src="js/scripts.js"></script>
+
+<header>Address Book Application</header>
+
+<nav>
+    <ul>
+        <li id="showList">Address List</li>
+        <li id="showNew">New Address</li>
+    </ul>
+</nav>
+
+<div id="addressList">
+</div>
+
+<div id="addressForm">
+<form>
+    <table>
+        <tr>
+            <th>Name</th>
+            <td><input type="text" name="name" required></td>
+        </tr>
+        <tr>
+            <th>Address</th>
+            <td><input type="text" name="address" required></td>
+        </tr>
+        <tr>
+            <td><input type="hidden" name="nr"></td>
+            <td><button id="formButton">Add</button></td>
+        </tr>
+    </table>
+</form>
+</div>
+
+<footer>
+    <address>
+    Developed by Rob Klinkhamer.<br>
+    Sources available at <a href="https://github.com/RJK-Engineering/AddressBookApp">GitHub</a>.<br>
+    </address>
+    <a href="https://validator.w3.org/check?uri=referer"><img
+        src="http://www.w3.org/Icons/valid-xhtml10"
+        alt="Valid XHTML 1.0!" height="31" width="88" /></a>
+    <a href="https://html5.validator.nu/?doc=http%3A%2F%2F82.72.124.186%2FAddressBookApp%2F">HTML5 Validator</a>
+</footer>
+
 </body>
 
 </html>

@@ -1,0 +1,21 @@
+body {
+    color: white;
+    background-color: black;
+}
+li {
+    cursor: pointer;
+}
+#addressForm {
+    display:none;
+}
+#addressList {
+    /*display:none;*/
+}
+table {
+    border: 1px solid grey;
+}
+table td {
+    border: 1px solid grey;
+    border-left-width: 0px;
+    border-right-width: 0px;
+}
